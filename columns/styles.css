@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 40px;
+
+  display: flex;
+  gap: 1rem;
+}
+
+aside, main {
+  border: 1px solid cornflowerblue;
+}
+
+aside {
+  flex-basis: 25%;
+}
+
+main {
+  flex-grow: 3;
+}
